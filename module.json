@@ -1,0 +1,42 @@
+{
+    "id": "feature-class-filtering",
+    "title": "Feature Class Filtering",
+    "authors": [
+        {
+            "name": "enso"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "4",
+                    "verified": "4"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module",
+                "compatibility": {
+                    "minimum": "1",
+                    "verified": "1.12.7.1"
+                }
+            }
+        ]
+    },
+    "esmodules": [
+        "./scripts/feature-class-filtering.js"
+    ],
+    "styles": [
+        "./styles/feature-class-filtering.css"
+    ]
+}

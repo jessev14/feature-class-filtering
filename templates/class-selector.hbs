@@ -1,0 +1,10 @@
+<div autocomplete="off">
+    {{#each classes}}
+    <div class="class-checkbox">
+        <label>
+            {{this.label}}
+            <input type="checkbox" name="{{this.id}}" {{checked this.checked}} />
+        </label>
+    </div>
+    {{/each}}
+</dvi>

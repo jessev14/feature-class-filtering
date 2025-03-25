@@ -1,0 +1,11 @@
+#feature-class-filtering div {
+    display: flex;
+    flex-direction: column;
+}
+
+#feature-class-filtering div div.class-checkbox label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
